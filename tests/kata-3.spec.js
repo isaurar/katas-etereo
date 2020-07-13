@@ -1,7 +1,7 @@
 import assert from 'assert'
 import { kata3 } from '../src/kata-3'
 
-describe.only('kata-3', function() {
+describe('kata-3', function() {
   it('n=1 m=250 should return valid values', () => {
     assert.deepEqual(kata3(1, 250),[ [1, 1], [42, 2500], [246, 84100] ])
   })

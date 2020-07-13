@@ -4,8 +4,8 @@
   "description": "JS coding katas challenge",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --require babel-register --file=tests/test.js tests/*.spec.js",
-    "test:debug": "./node_modules/mocha/bin/mocha --require babel-register --inspect-brk --file=tests/test.js tests/*.spec.js"
+    "test": "node ./node_modules/mocha/bin/mocha --require babel-register --file=tests/test.js tests/*.spec.js",
+    "test:debug": "node ./node_modules/mocha/bin/mocha --require babel-register --inspect-brk --file=tests/test.js tests/*.spec.js"
   },
   "repository": {
     "type": "git",
